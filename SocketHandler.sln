@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "messageSpecs", "messageSpecs\messageSpecs.csproj", "{2FDE7B6A-7618-489A-8857-63BFA7ABD92B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketHandler", "SocketHandler\SocketHandler.csproj", "{B63A6BD7-C271-4672-8E3D-EF51889E55D4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{54684036-6409-4EFA-92B7-0E18657A0C94} = {54684036-6409-4EFA-92B7-0E18657A0C94}
+		{2FDE7B6A-7618-489A-8857-63BFA7ABD92B} = {2FDE7B6A-7618-489A-8857-63BFA7ABD92B}
+		{F941EEB2-92EE-45C9-BA87-7AFDF1EB5FE6} = {F941EEB2-92EE-45C9-BA87-7AFDF1EB5FE6}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketTester", "SocketTester\SocketTester.csproj", "{21976953-36AB-41E9-B29D-736FC350F923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing", "Testing\Testing.csproj", "{F941EEB2-92EE-45C9-BA87-7AFDF1EB5FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLManager", "SQLManager\SQLManager.csproj", "{54684036-6409-4EFA-92B7-0E18657A0C94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0BE8058A-5572-413A-ADF3-EEF435B05D6F}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://coeids.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = messageSpecs\\messageSpecs.csproj
+		SccProjectName1 = messageSpecs
+		SccLocalPath1 = messageSpecs
+		SccProjectUniqueName2 = SocketHandler\\SocketHandler.csproj
+		SccProjectName2 = SocketHandler
+		SccLocalPath2 = SocketHandler
+		SccProjectUniqueName3 = SocketTester\\SocketTester.csproj
+		SccProjectName3 = SocketTester
+		SccLocalPath3 = SocketTester
+		SccProjectUniqueName4 = Testing\\Testing.csproj
+		SccProjectName4 = Testing
+		SccLocalPath4 = Testing
+		SccProjectUniqueName5 = SQLManager\\SQLManager.csproj
+		SccProjectName5 = SQLManager
+		SccLocalPath5 = SQLManager
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FDE7B6A-7618-489A-8857-63BFA7ABD92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FDE7B6A-7618-489A-8857-63BFA7ABD92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FDE7B6A-7618-489A-8857-63BFA7ABD92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FDE7B6A-7618-489A-8857-63BFA7ABD92B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63A6BD7-C271-4672-8E3D-EF51889E55D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63A6BD7-C271-4672-8E3D-EF51889E55D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63A6BD7-C271-4672-8E3D-EF51889E55D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63A6BD7-C271-4672-8E3D-EF51889E55D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21976953-36AB-41E9-B29D-736FC350F923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21976953-36AB-41E9-B29D-736FC350F923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21976953-36AB-41E9-B29D-736FC350F923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21976953-36AB-41E9-B29D-736FC350F923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F941EEB2-92EE-45C9-BA87-7AFDF1EB5FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F941EEB2-92EE-45C9-BA87-7AFDF1EB5FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F941EEB2-92EE-45C9-BA87-7AFDF1EB5FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F941EEB2-92EE-45C9-BA87-7AFDF1EB5FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54684036-6409-4EFA-92B7-0E18657A0C94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54684036-6409-4EFA-92B7-0E18657A0C94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54684036-6409-4EFA-92B7-0E18657A0C94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54684036-6409-4EFA-92B7-0E18657A0C94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
